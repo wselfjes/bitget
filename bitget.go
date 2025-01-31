@@ -45,7 +45,7 @@ type Client struct {
 	spotMarketService  *spot.SpotMarketClient
 	spotOrderService   *spot.SpotOrderClient
 	spotPublicService  *spot.SpotPublicClient
-	//spotWalletService	*spot.SpotWalletClient			// @todo
+	// spotWalletService	*spot.SpotWalletClient			// @todo
 }
 
 func NewClient(creds config.InterApiCreds) *Client {
@@ -86,18 +86,23 @@ func (c *Client) GetBrokerService() *broker.BrokerAccountClient {
 func (c *Client) GetMixAccountService() *mix.MixAccountClient {
 	return c.mixAccountService
 }
+
 func (c *Client) GetMixMarketService() *mix.MixMarketClient {
 	return c.mixMarketService
 }
+
 func (c *Client) GetMixOrderService() *mix.MixOrderClient {
 	return c.mixOrderService
 }
+
 func (c *Client) GetMixPlanService() *mix.MixPlanClient {
 	return c.mixPlanService
 }
+
 func (c *Client) GetMixPositionService() *mix.MixPositionClient {
 	return c.mixPositionService
 }
+
 func (c *Client) GetMixTraceService() *mix.MixTraceClient {
 	return c.mixTraceService
 }
@@ -106,12 +111,15 @@ func (c *Client) GetMixTraceService() *mix.MixTraceClient {
 func (c *Client) GetSpotAccountService() *spot.SpotAccountClient {
 	return c.spotAccountService
 }
+
 func (c *Client) GetSpotMarketService() *spot.SpotMarketClient {
 	return c.spotMarketService
 }
+
 func (c *Client) GetSpotOrderService() *spot.SpotOrderClient {
 	return c.spotOrderService
 }
+
 func (c *Client) GetSpotPublicService() *spot.SpotPublicClient {
 	return c.spotPublicService
 }
@@ -148,7 +156,7 @@ func (ws *WsClient) SubscribeSpot(channel string, symbols ...string) UnscribeFun
 	subs := make([]model.SubscribeReq, len(symbols))
 	for i, s := range symbols {
 		subs[i] = model.SubscribeReq{
-			InstType: "SP",
+			InstType: "SPOT",
 			Channel:  channel,
 			InstId:   s,
 		}
