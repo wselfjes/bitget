@@ -1,6 +1,6 @@
 package request
 
-import "github.com/yasseldg/bitget/pkg/model/v2/errors"
+import "github.com/wselfjes/bitget/pkg/model/v2/errors"
 
 type ChangePositionMode struct {
 	productType string

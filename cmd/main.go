@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/yasseldg/bitget/cmd/restV2"
+	"github.com/wselfjes/bitget/cmd/restV2"
 
 	"github.com/yasseldg/go-simple/logs/sLog"
 	"github.com/yasseldg/go-simple/types/sTime"

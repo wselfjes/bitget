@@ -1,7 +1,7 @@
 package wspush
 
 import (
-	"github.com/yasseldg/bitget/pkg/model"
+	"github.com/wselfjes/bitget/pkg/model"
 )
 
 type WsTickerPush struct {

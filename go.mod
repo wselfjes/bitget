@@ -1,4 +1,4 @@
-module github.com/yasseldg/bitget
+module github.com/wselfjes/bitget
 
 go 1.23.0
 

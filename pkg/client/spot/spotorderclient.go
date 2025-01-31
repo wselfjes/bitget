@@ -1,10 +1,10 @@
 package spot
 
 import (
-	"github.com/yasseldg/bitget/constants"
-	"github.com/yasseldg/bitget/internal"
-	"github.com/yasseldg/bitget/internal/common"
-	"github.com/yasseldg/bitget/pkg/model/spot/order"
+	"github.com/wselfjes/bitget/constants"
+	"github.com/wselfjes/bitget/internal"
+	"github.com/wselfjes/bitget/internal/common"
+	"github.com/wselfjes/bitget/pkg/model/spot/order"
 )
 
 type SpotOrderClient struct {

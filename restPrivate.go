@@ -1,8 +1,8 @@
 package bitget
 
 import (
-	v1 "github.com/yasseldg/bitget/pkg/client/v1"
-	v2 "github.com/yasseldg/bitget/pkg/client/v2"
+	v1 "github.com/wselfjes/bitget/pkg/client/v1"
+	v2 "github.com/wselfjes/bitget/pkg/client/v2"
 )
 
 type InterRest interface {

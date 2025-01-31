@@ -3,10 +3,10 @@ package v1
 import (
 	"fmt"
 
-	"github.com/yasseldg/bitget/internal/common"
+	"github.com/wselfjes/bitget/internal/common"
 
-	"github.com/yasseldg/bitget/pkg/model/v1/request"
-	"github.com/yasseldg/bitget/pkg/model/v1/response"
+	"github.com/wselfjes/bitget/pkg/model/v1/request"
+	"github.com/wselfjes/bitget/pkg/model/v1/response"
 
 	"github.com/yasseldg/go-simple/types/sJson"
 )

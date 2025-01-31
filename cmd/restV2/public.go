@@ -1,8 +1,8 @@
 package restV2
 
 import (
-	"github.com/yasseldg/bitget"
-	"github.com/yasseldg/bitget/constants"
+	"github.com/wselfjes/bitget"
+	"github.com/wselfjes/bitget/constants"
 	"github.com/yasseldg/go-simple/logs/sLog"
 )
 

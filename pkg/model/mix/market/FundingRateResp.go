@@ -1,6 +1,6 @@
 package market
 
-import "github.com/yasseldg/bitget/pkg/model"
+import "github.com/wselfjes/bitget/pkg/model"
 
 type FundingRateResp struct {
 	model.BaseResp `json:",inline"`

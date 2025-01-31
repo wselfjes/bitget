@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/yasseldg/bitget/internal"
-	"github.com/yasseldg/bitget/pkg/model/mix/order"
+	"github.com/wselfjes/bitget/internal"
+	"github.com/wselfjes/bitget/pkg/model/mix/order"
 )
 
 func TestMixOrderClient_PlaceOrder(t *testing.T) {

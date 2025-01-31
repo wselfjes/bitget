@@ -1,8 +1,8 @@
 package restV2
 
 import (
-	"github.com/yasseldg/bitget"
-	"github.com/yasseldg/bitget/cmd/config"
+	"github.com/wselfjes/bitget"
+	"github.com/wselfjes/bitget/cmd/config"
 )
 
 func Orders() {

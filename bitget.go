@@ -4,14 +4,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/yasseldg/bitget/config"
-	"github.com/yasseldg/bitget/constants"
-	"github.com/yasseldg/bitget/internal/common"
-	"github.com/yasseldg/bitget/internal/model"
-	"github.com/yasseldg/bitget/pkg/client/broker"
-	"github.com/yasseldg/bitget/pkg/client/mix"
-	"github.com/yasseldg/bitget/pkg/client/spot"
-	"github.com/yasseldg/bitget/pkg/client/ws"
+	"github.com/wselfjes/bitget/config"
+	"github.com/wselfjes/bitget/constants"
+	"github.com/wselfjes/bitget/internal/common"
+	"github.com/wselfjes/bitget/internal/model"
+	"github.com/wselfjes/bitget/pkg/client/broker"
+	"github.com/wselfjes/bitget/pkg/client/mix"
+	"github.com/wselfjes/bitget/pkg/client/spot"
+	"github.com/wselfjes/bitget/pkg/client/ws"
 )
 
 type InterClient interface {

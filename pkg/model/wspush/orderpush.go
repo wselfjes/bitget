@@ -1,8 +1,8 @@
 package wspush
 
 import (
-	"github.com/yasseldg/bitget/pkg/model"
-	"github.com/yasseldg/bitget/pkg/model/common"
+	"github.com/wselfjes/bitget/pkg/model"
+	"github.com/wselfjes/bitget/pkg/model/common"
 )
 
 type WsOrderPush struct {

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yasseldg/bitget"
-	"github.com/yasseldg/bitget/constants"
-	"github.com/yasseldg/bitget/pkg/model/mix/market"
-	"github.com/yasseldg/bitget/pkg/model/v2/response"
+	"github.com/wselfjes/bitget"
+	"github.com/wselfjes/bitget/constants"
+	"github.com/wselfjes/bitget/pkg/model/mix/market"
+	"github.com/wselfjes/bitget/pkg/model/v2/response"
 	"github.com/yasseldg/go-simple/logs/sLog"
 )
 

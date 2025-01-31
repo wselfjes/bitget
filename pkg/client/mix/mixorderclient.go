@@ -1,10 +1,10 @@
 package mix
 
 import (
-	"github.com/yasseldg/bitget/constants"
-	"github.com/yasseldg/bitget/internal"
-	"github.com/yasseldg/bitget/internal/common"
-	"github.com/yasseldg/bitget/pkg/model/mix/order"
+	"github.com/wselfjes/bitget/constants"
+	"github.com/wselfjes/bitget/internal"
+	"github.com/wselfjes/bitget/internal/common"
+	"github.com/wselfjes/bitget/pkg/model/mix/order"
 )
 
 type MixOrderClient struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/yasseldg/bitget/internal"
+	"github.com/wselfjes/bitget/internal"
 )
 
 func TestSigner_Sign(t *testing.T) {

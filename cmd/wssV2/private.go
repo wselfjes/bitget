@@ -1,10 +1,10 @@
 package wssV2
 
 import (
-	"github.com/yasseldg/bitget"
-	"github.com/yasseldg/bitget/cmd/config"
-	"github.com/yasseldg/bitget/internal"
-	"github.com/yasseldg/bitget/pkg/model/wspush"
+	"github.com/wselfjes/bitget"
+	"github.com/wselfjes/bitget/cmd/config"
+	"github.com/wselfjes/bitget/internal"
+	"github.com/wselfjes/bitget/pkg/model/wspush"
 	"github.com/yasseldg/go-simple/logs/sLog"
 )
 

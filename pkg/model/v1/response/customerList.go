@@ -1,6 +1,6 @@
 package response
 
-import "github.com/yasseldg/bitget/pkg/model"
+import "github.com/wselfjes/bitget/pkg/model"
 
 type CustomerList struct {
 	model.BaseResp `json:",inline"`

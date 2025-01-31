@@ -3,9 +3,9 @@ package v2
 import (
 	"fmt"
 
-	"github.com/yasseldg/bitget/internal"
-	"github.com/yasseldg/bitget/internal/common"
-	"github.com/yasseldg/bitget/pkg/model/v2/response"
+	"github.com/wselfjes/bitget/internal"
+	"github.com/wselfjes/bitget/internal/common"
+	"github.com/wselfjes/bitget/pkg/model/v2/response"
 	"github.com/yasseldg/go-simple/types/sJson"
 )
 

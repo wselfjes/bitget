@@ -1,8 +1,8 @@
 package wspush
 
 import (
-	"github.com/yasseldg/bitget/pkg/model"
-	"github.com/yasseldg/bitget/pkg/model/mix/market"
+	"github.com/wselfjes/bitget/pkg/model"
+	"github.com/wselfjes/bitget/pkg/model/mix/market"
 )
 
 type WsCandlePush struct {

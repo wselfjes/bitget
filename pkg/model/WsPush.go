@@ -1,6 +1,6 @@
 package model
 
-import "github.com/yasseldg/bitget/internal/model"
+import "github.com/wselfjes/bitget/internal/model"
 
 type BasePush struct {
 	Action string             `json:"action"`

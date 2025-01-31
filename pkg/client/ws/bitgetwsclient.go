@@ -1,10 +1,10 @@
 package ws
 
 import (
-	"github.com/yasseldg/bitget/config"
-	"github.com/yasseldg/bitget/constants"
-	"github.com/yasseldg/bitget/internal/common"
-	"github.com/yasseldg/bitget/internal/model"
+	"github.com/wselfjes/bitget/config"
+	"github.com/wselfjes/bitget/constants"
+	"github.com/wselfjes/bitget/internal/common"
+	"github.com/wselfjes/bitget/internal/model"
 )
 
 type BitgetWsClient struct {

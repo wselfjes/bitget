@@ -1,8 +1,8 @@
 package v2
 
 import (
-	"github.com/yasseldg/bitget/internal/common"
-	"github.com/yasseldg/bitget/pkg/model/v2/request"
+	"github.com/wselfjes/bitget/internal/common"
+	"github.com/wselfjes/bitget/pkg/model/v2/request"
 )
 
 type GetApiKeyList struct {

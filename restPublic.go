@@ -1,10 +1,10 @@
 package bitget
 
 import (
-	"github.com/yasseldg/bitget/config"
-	"github.com/yasseldg/bitget/internal/common"
+	"github.com/wselfjes/bitget/config"
+	"github.com/wselfjes/bitget/internal/common"
 
-	v2 "github.com/yasseldg/bitget/pkg/client/v2"
+	v2 "github.com/wselfjes/bitget/pkg/client/v2"
 )
 
 type Rest struct {

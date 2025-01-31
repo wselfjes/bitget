@@ -1,6 +1,6 @@
 package config
 
-import "github.com/yasseldg/bitget/config"
+import "github.com/wselfjes/bitget/config"
 
 func FullApi() *config.ApiCreds {
 	return &config.ApiCreds{}
